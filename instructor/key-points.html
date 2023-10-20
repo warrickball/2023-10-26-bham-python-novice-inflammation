@@ -187,7 +187,7 @@
 <div class="accordion accordion-flush" id="accordionFlush3">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading3">
-        <a href="02-numpy.html">2. Analyzing Patient Data</a>
+        <a href="04-lists.html">2. Storing Multiple Values in Lists</a>
     </div>
 <!--/div.accordion-header-->
         
@@ -199,7 +199,7 @@
 <div class="accordion accordion-flush" id="accordionFlush4">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading4">
-        <a href="03-matplotlib.html">3. Visualizing Tabular Data</a>
+        <a href="02-numpy.html">3. Analyzing Patient Data</a>
     </div>
 <!--/div.accordion-header-->
         
@@ -211,7 +211,7 @@
 <div class="accordion accordion-flush" id="accordionFlush5">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading5">
-        <a href="04-lists.html">4. Storing Multiple Values in Lists</a>
+        <a href="03-matplotlib.html">4. Visualizing Tabular Data</a>
     </div>
 <!--/div.accordion-header-->
         
@@ -223,7 +223,7 @@
 <div class="accordion accordion-flush" id="accordionFlush6">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading6">
-        <a href="05-loop.html">5. Repeating Actions with Loops</a>
+        <a href="13-scripts.html">5. Writing Python Scripts</a>
     </div>
 <!--/div.accordion-header-->
         
@@ -235,7 +235,7 @@
 <div class="accordion accordion-flush" id="accordionFlush7">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading7">
-        <a href="06-files.html">6. Analyzing Data from Multiple Files</a>
+        <a href="05-loop.html">6. Repeating Actions with Loops</a>
     </div>
 <!--/div.accordion-header-->
         
@@ -260,54 +260,6 @@
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading9">
         <a href="08-func.html">8. Creating Functions</a>
-    </div>
-<!--/div.accordion-header-->
-        
-  </div>
-<!--/div.accordion-item-->
-</div>
-<!--/div.accordion-flush-->
-
-<div class="accordion accordion-flush" id="accordionFlush10">
-  <div class="accordion-item">
-    <div class="accordion-header" id="flush-heading10">
-        <a href="09-errors.html">9. Errors and Exceptions</a>
-    </div>
-<!--/div.accordion-header-->
-        
-  </div>
-<!--/div.accordion-item-->
-</div>
-<!--/div.accordion-flush-->
-
-<div class="accordion accordion-flush" id="accordionFlush11">
-  <div class="accordion-item">
-    <div class="accordion-header" id="flush-heading11">
-        <a href="10-defensive.html">10. Defensive Programming</a>
-    </div>
-<!--/div.accordion-header-->
-        
-  </div>
-<!--/div.accordion-item-->
-</div>
-<!--/div.accordion-flush-->
-
-<div class="accordion accordion-flush" id="accordionFlush12">
-  <div class="accordion-item">
-    <div class="accordion-header" id="flush-heading12">
-        <a href="11-debugging.html">11. Debugging</a>
-    </div>
-<!--/div.accordion-header-->
-        
-  </div>
-<!--/div.accordion-item-->
-</div>
-<!--/div.accordion-flush-->
-
-<div class="accordion accordion-flush" id="accordionFlush13">
-  <div class="accordion-item">
-    <div class="accordion-header" id="flush-heading13">
-        <a href="12-cmdline.html">12. Command-Line Programs</a>
     </div>
 <!--/div.accordion-header-->
         
@@ -385,6 +337,19 @@ them.</li>
 <li>Use <code># some kind of explanation</code> to add comments to
 programs.</li>
 <li>Built-in functions are always available to use.</li>
+</ul></section><section id="04-lists"><h2 class="section-heading"><a href="04-lists.html">Storing Multiple Values in Lists</a></h2>
+<hr class="half-width">
+<ul>
+<li>
+<code>[value1, value2, value3, ...]</code> creates a list.</li>
+<li>Lists can contain any Python object, including lists (i.e., list of
+lists).</li>
+<li>Lists are indexed and sliced with square brackets (e.g.,
+<code>list[0]</code> and <code>list[2:9]</code>), in the same way as
+strings and arrays.</li>
+<li>Lists are mutable (i.e., their values can be changed in place).</li>
+<li>Strings are immutable (i.e., the characters in them cannot be
+changed).</li>
 </ul></section><section id="02-numpy"><h2 class="section-heading"><a href="02-numpy.html">Analyzing Patient Data</a></h2>
 <hr class="half-width">
 <ul>
@@ -411,19 +376,18 @@ the specified axis.</li>
 <ul>
 <li>Use the <code>pyplot</code> module from the <code>matplotlib</code>
 library for creating simple visualizations.</li>
-</ul></section><section id="04-lists"><h2 class="section-heading"><a href="04-lists.html">Storing Multiple Values in Lists</a></h2>
+</ul></section><section id="13-scripts"><h2 class="section-heading"><a href="13-scripts.html">Writing Python Scripts</a></h2>
 <hr class="half-width">
 <ul>
-<li>
-<code>[value1, value2, value3, ...]</code> creates a list.</li>
-<li>Lists can contain any Python object, including lists (i.e., list of
-lists).</li>
-<li>Lists are indexed and sliced with square brackets (e.g.,
-<code>list[0]</code> and <code>list[2:9]</code>), in the same way as
-strings and arrays.</li>
-<li>Lists are mutable (i.e., their values can be changed in place).</li>
-<li>Strings are immutable (i.e., the characters in them cannot be
-changed).</li>
+<li>Python commands can be written and stored in a plain text file</li>
+<li>This file can then be run by using the
+<code>python &lt;scriptname&gt;</code>
+</li>
+<li>Python scripts generally use the <code>.py</code> extension</li>
+<li>You should try to use a syntax-highlighting text editor to edit your
+Python scripts</li>
+<li>Use comments to improve the readability of your code and aid
+understanding for both other people and yourself in the future</li>
 </ul></section><section id="05-loop"><h2 class="section-heading"><a href="05-loop.html">Repeating Actions with Loops</a></h2>
 <hr class="half-width">
 <ul>
@@ -432,13 +396,6 @@ a sequence one at a time.</li>
 <li>The body of a <code>for</code> loop must be indented.</li>
 <li>Use <code>len(thing)</code> to determine the length of something
 that contains other values.</li>
-</ul></section><section id="06-files"><h2 class="section-heading"><a href="06-files.html">Analyzing Data from Multiple Files</a></h2>
-<hr class="half-width">
-<ul>
-<li>Use <code>glob.glob(pattern)</code> to create a list of files whose
-names match a pattern.</li>
-<li>Use <code>*</code> in a pattern to match zero or more characters,
-and <code>?</code> to match any single character.</li>
 </ul></section><section id="07-cond"><h2 class="section-heading"><a href="07-cond.html">Making Choices</a></h2>
 <hr class="half-width">
 <ul>
@@ -482,61 +439,6 @@ their names match.</li>
 by omitting them (in which case the default value is used).</li>
 <li>Put code whose parameters change frequently in a function, then call
 it with different parameter values to customize its behavior.</li>
-</ul></section><section id="09-errors"><h2 class="section-heading"><a href="09-errors.html">Errors and Exceptions</a></h2>
-<hr class="half-width">
-<ul>
-<li>Tracebacks can look intimidating, but they give us a lot of useful
-information about what went wrong in our program, including where the
-error occurred and what type of error it was.</li>
-<li>An error having to do with the ‘grammar’ or syntax of the program is
-called a <code>SyntaxError</code>. If the issue has to do with how the
-code is indented, then it will be called an
-<code>IndentationError</code>.</li>
-<li>A <code>NameError</code> will occur when trying to use a variable
-that does not exist. Possible causes are that a variable definition is
-missing, a variable reference differs from its definition in spelling or
-capitalization, or the code contains a string that is missing quotes
-around it.</li>
-<li>Containers like lists and strings will generate errors if you try to
-access items in them that do not exist. This type of error is called an
-<code>IndexError</code>.</li>
-<li>Trying to read a file that does not exist will give you an
-<code>FileNotFoundError</code>. Trying to read a file that is open for
-writing, or writing to a file that is open for reading, will give you an
-<code>IOError</code>.</li>
-</ul></section><section id="10-defensive"><h2 class="section-heading"><a href="10-defensive.html">Defensive Programming</a></h2>
-<hr class="half-width">
-<ul>
-<li>Program defensively, i.e., assume that errors are going to arise,
-and write code to detect them when they do.</li>
-<li>Put assertions in programs to check their state as they run, and to
-help readers understand how those programs are supposed to work.</li>
-<li>Use preconditions to check that the inputs to a function are safe to
-use.</li>
-<li>Use postconditions to check that the output from a function is safe
-to use.</li>
-<li>Write tests before writing code in order to help determine exactly
-what that code is supposed to do.</li>
-</ul></section><section id="11-debugging"><h2 class="section-heading"><a href="11-debugging.html">Debugging</a></h2>
-<hr class="half-width">
-<ul>
-<li>Know what code is supposed to do <em>before</em> trying to debug
-it.</li>
-<li>Make it fail every time.</li>
-<li>Make it fail fast.</li>
-<li>Change one thing at a time, and for a reason.</li>
-<li>Keep track of what you’ve done.</li>
-<li>Be humble.</li>
-</ul></section><section id="12-cmdline"><h2 class="section-heading"><a href="12-cmdline.html">Command-Line Programs</a></h2>
-<hr class="half-width">
-<ul>
-<li>The <code>sys</code> library connects a Python program to the system
-it is running on.</li>
-<li>The list <code>sys.argv</code> contains the command-line arguments
-that a program was run with.</li>
-<li>Avoid silent failures.</li>
-<li>The pseudo-file <code>sys.stdin</code> connects to a program’s
-standard input.</li>
 </ul></section>
 </div>
     </main>
