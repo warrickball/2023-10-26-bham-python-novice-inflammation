@@ -27,13 +27,13 @@ life_cycle: 'stable'
 license: 'CC-BY 4.0'
 
 # Link to the source repository for this lesson
-source: 'https://github.com/swcarpentry/python-novice-inflammation'
+source: 'https://github.com/warrickball/2023-10-26-bham-python-novice-inflammation'
 
 # Default branch of your lesson
 branch: 'main'
 
 # Who to contact if there are any issues
-contact: 'team@carpentries.org'
+contact: 'W.H.Ball@bham.ac.uk'
 
 # Navigation ------------------------------------------------
 #
@@ -88,6 +88,6 @@ profiles:
 # sandpaper and varnish versions) should live
 
 
-url: 'https://swcarpentry.github.io/python-novice-inflammation'
+url: 'https://warrickball.github.io/2023-10-26-bham-python-novice-inflammation/'
 analytics: carpentries
 lang: en
