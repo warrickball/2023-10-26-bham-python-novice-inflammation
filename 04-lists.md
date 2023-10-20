@@ -36,8 +36,8 @@ multiple values in a list as well as how to work with lists.
 
 ## Python lists
 
-Unlike NumPy arrays, lists are built into the language so we do not have to load a library
-to use them.
+<!-- Unlike NumPy arrays, lists are built into the language so we do not have to load a library
+to use them. -->
 We create a list by putting values inside square brackets and separating the values with commas:
 
 ```python
@@ -307,8 +307,8 @@ primes: [3, 5, 7, 2]
 odds: [3, 5, 7]
 ```
 
-Subsets of lists and strings can be accessed by specifying ranges of values in brackets,
-similar to how we accessed ranges of positions in a NumPy array.
+Subsets of lists and strings can be accessed by specifying ranges of values in brackets.
+<!-- similar to how we accessed ranges of positions in a NumPy array. -->
 This is commonly referred to as "slicing" the list/string.
 
 ```python
