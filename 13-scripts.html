@@ -317,13 +317,12 @@ grips with the basic use of Python. From now on, we will be focusing on
 saving our code in to scripts and running them from the shell by
 executing the <code>python</code> program with our script as an
 argument.</p>
-<div id="switching-to-shell-commands" class="callout callout">
+<div id="callout1" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div id="switching-to-shell-commands" class="callout-inner">
-<h3 class="callout-title">Switching to Shell Commands<a class="anchor" aria-label="anchor" href="#switching-to-shell-commands"></a>
-</h3>
+<div class="section level3 callout-title callout-inner">
+<h3 class="callout-title" id="switching-to-shell-commands">Switching to Shell Commands<a class="anchor" aria-label="anchor" href="#switching-to-shell-commands"></a></h3>
 <div class="callout-content">
 <p>In this lesson we are switching from typing commands in a Python
 interpreter to typing commands in a shell terminal window (such as
@@ -343,13 +342,12 @@ text editor with syntax highlighting. For this course, we recommend
 using VSCode as provided by Microsoft. It’s easily installed on Windows
 either directly or through Anaconda and macOS users can install and run
 it through Anaconda as well.</p>
-<div id="choosing-a-good-text-editor" class="callout callout">
+<div id="callout2" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div id="choosing-a-good-text-editor" class="callout-inner">
-<h3 class="callout-title">Choosing a Good Text Editor<a class="anchor" aria-label="anchor" href="#choosing-a-good-text-editor"></a>
-</h3>
+<div class="section level3 callout-title callout-inner">
+<h3 class="callout-title" id="choosing-a-good-text-editor">Choosing a Good Text Editor<a class="anchor" aria-label="anchor" href="#choosing-a-good-text-editor"></a></h3>
 <div class="callout-content">
 <p>When we write Python scripts, it is essential that it is written in
 <strong>plain</strong> text - this means you can’t use a Word Processor
@@ -375,7 +373,7 @@ and opened, type the following and save it:</p>
 <div class="codewrapper sourceCode" id="cb1">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">"Hello World"</span>)</span></code></pre>
+<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" tabindex="-1"></a><span class="bu">print</span>(<span class="st">"Hello World"</span>)</span></code></pre>
 </div>
 <p>As you can see, we have used the .py extension as this makes it
 easier to identify Python scripts from other file types.</p>
@@ -384,13 +382,13 @@ you are in the correct folder:</p>
 <div class="codewrapper sourceCode" id="cb2">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> cd ~/Desktop/swc-python/</span></code></pre>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" tabindex="-1"></a><span class="ex">$</span> cd ~/Desktop/swc-python/</span></code></pre>
 </div>
 <p>and then type:</p>
 <div class="codewrapper sourceCode" id="cb3">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> python hello.py</span></code></pre>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" tabindex="-1"></a><span class="ex">$</span> python hello.py</span></code></pre>
 </div>
 <p>Hopefully you should see what you would expect:</p>
 <div class="codewrapper">
@@ -416,18 +414,17 @@ following:</p>
 <div class="codewrapper sourceCode" id="cb5">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># A simple test to check everything's working</span></span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">"Hello World"</span>)</span></code></pre>
+<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" tabindex="-1"></a><span class="co"># A simple test to check everything's working</span></span>
+<span id="cb5-2"><a href="#cb5-2" tabindex="-1"></a><span class="bu">print</span>(<span class="st">"Hello World"</span>)</span></code></pre>
 </div>
 <p>If you run this, you will see the same as before but now you’ve added
 some information about what you were trying to achieve!</p>
-<div id="its-not-all-about-comments" class="callout callout">
+<div id="callout3" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div id="its-not-all-about-comments" class="callout-inner">
-<h3 class="callout-title">It’s Not All About Comments<a class="anchor" aria-label="anchor" href="#its-not-all-about-comments"></a>
-</h3>
+<div class="section level3 callout-title callout-inner">
+<h3 class="callout-title" id="its-not-all-about-comments">It’s Not All About Comments<a class="anchor" aria-label="anchor" href="#its-not-all-about-comments"></a></h3>
 <div class="callout-content">
 <p>You shouldn’t use comments as an excuse for poor variable names or
 code structure/formatting. Your code should be fairly readable without
@@ -515,7 +512,7 @@ understanding for both other people and yourself in the future</li>
   "identifier": "https://warrickball.github.io/2023-10-26-bham-python-novice-inflammation/13-scripts.html",
   "dateCreated": "2014-11-25",
   "dateModified": "2023-10-20",
-  "datePublished": "2024-02-27"
+  "datePublished": "2024-03-05"
 }
 
   </script><script>
