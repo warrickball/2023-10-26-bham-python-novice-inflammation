@@ -9,7 +9,7 @@ on:
         default: 'monthly run'
   schedule:
     # Run every tuesday
-    - cron: '0 0 * * 2'
+    # - cron: '0 0 * * 2'
 
 jobs:
   preflight:
